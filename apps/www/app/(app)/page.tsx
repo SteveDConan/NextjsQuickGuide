@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 export default function IndexPage() {
   return (
     <>
-      <PageHeader>
+      {/* <PageHeader>
         <Announcement />
         <PageHeaderHeading>{title}</PageHeaderHeading>
         <PageHeaderDescription>{description}</PageHeaderDescription>
@@ -56,7 +56,7 @@ export default function IndexPage() {
             <Link href="/blocks">Browse Blocks</Link>
           </Button>
         </PageActions>
-      </PageHeader>
+      </PageHeader> */}
       <div className="border-grid border-b">
         <div className="container-wrapper">
           <div className="container py-4">

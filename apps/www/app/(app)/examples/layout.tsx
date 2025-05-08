@@ -45,7 +45,7 @@ export default function ExamplesLayout({
 }) {
   return (
     <>
-      <PageHeader>
+      {/* <PageHeader>
         <Announcement />
         <PageHeaderHeading>Build your component library</PageHeaderHeading>
         <PageHeaderDescription>
@@ -61,7 +61,7 @@ export default function ExamplesLayout({
             <Link href="/blocks">Browse Blocks</Link>
           </Button>
         </PageActions>
-      </PageHeader>
+      </PageHeader> */}
       <div className="border-grid border-b">
         <div className="container-wrapper">
           <div className="container py-4">

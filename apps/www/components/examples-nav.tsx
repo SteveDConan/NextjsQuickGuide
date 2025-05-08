@@ -14,6 +14,12 @@ const examples = [
     hidden: false,
   },
   {
+    name: "Oppo",
+    href: "/examples/oppo",
+    code: "https://github.com/shadcn/ui/tree/main/apps/www/app/(app)/examples/oppo",
+    hidden: false,
+  },
+  {
     name: "Dashboard",
     href: "/examples/dashboard",
     code: "https://github.com/shadcn/ui/tree/main/apps/www/app/(app)/examples/dashboard",

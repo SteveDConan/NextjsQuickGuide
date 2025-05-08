@@ -19,6 +19,17 @@ export function MainNav() {
         </span>
       </Link>
       <nav className="flex items-center gap-4 text-sm xl:gap-6">
+      <Link
+          href="/oppo/installation"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            pathname === "/oppo/installation"
+              ? "text-foreground"
+              : "text-foreground/80"
+          )}
+        >
+          OPPO
+        </Link>
         <Link
           href="/docs/installation"
           className={cn(

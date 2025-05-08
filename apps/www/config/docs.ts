@@ -3,6 +3,7 @@ import { MainNavItem, SidebarNavItem } from "types/nav"
 export interface DocsConfig {
   mainNav: MainNavItem[]
   sidebarNav: SidebarNavItem[]
+  sidebarNavOppo: SidebarNavItem[]
   chartsNav: SidebarNavItem[]
 }
 
@@ -417,6 +418,130 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/tooltip",
           items: [],
         },
+      ],
+    },
+    {
+      title: "Registry",
+      label: "New",
+      items: [
+        {
+          title: "Introduction",
+          href: "/docs/registry",
+          items: [],
+        },
+        {
+          title: "Getting Started",
+          href: "/docs/registry/getting-started",
+          items: [],
+        },
+        {
+          title: "Examples",
+          href: "/docs/registry/examples",
+          items: [],
+        },
+        {
+          title: "Open in v0",
+          href: "/docs/registry/open-in-v0",
+          items: [],
+        },
+        {
+          title: "FAQ",
+          href: "/docs/registry/faq",
+          items: [],
+        },
+        {
+          title: "registry.json",
+          href: "/docs/registry/registry-json",
+          items: [],
+        },
+        {
+          title: "registry-item.json",
+          href: "/docs/registry/registry-item-json",
+          items: [],
+        },
+      ],
+    },
+  ],
+  sidebarNavOppo: [
+    {
+      title: "Getting Started",
+      items: [
+        {
+          title: "Introduction",
+          href: "/docs",
+          items: [],
+        },
+        {
+          title: "Installation",
+          href: "/docs/installation",
+          items: [],
+        },
+        {
+          title: "Uy tín",
+          href: "/docs/components-json",
+          items: [],
+        },
+        {
+          title: "Nạp tiền",
+          href: "/docs/theming",
+          items: [],
+        },
+        {
+          title: "Rút tiền",
+          href: "/docs/dark-mode",
+          items: [],
+        },
+        {
+          title: "Binance",
+          href: "/docs/cli",
+          items: [],
+        },
+        {
+          title: "Reset Password",
+          href: "/docs/monorepo",
+          items: [],
+        },
+        {
+          title: "Quantify",
+          href: "/docs/tailwind-v4",
+          items: [],
+          label: "New",
+        }
+      ],
+    },
+    {
+      title: "Kiểm toán",
+      items: [
+        {
+          title: "Intro Kiểm toán",
+          href: "/docs/installation/next",
+          items: [],
+        },
+        {
+          title: "Kiểm toán 1",
+          href: "/docs/installation/vite",
+          items: [],
+        },
+        {
+          title: "Kiểm toán 2",
+          href: "/docs/installation/laravel",
+          items: [],
+        }
+      ],
+    },
+    {
+      title: "Khác",
+      items: [
+        {
+          title: "Hình ảnh",
+          href: "/docs/components/accordion",
+          items: [],
+        },
+        {
+          title: "Hình ảnh khách lãi",
+          href: "/docs/components/alert",
+          items: [],
+        }
       ],
     },
     {
