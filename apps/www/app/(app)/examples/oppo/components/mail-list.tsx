@@ -36,8 +36,8 @@ export function MailList({ items }: MailListProps) {
   }
 
   return (
-    <ScrollArea className="h-screen">
-      <div className="flex flex-col gap-2 p-4 pt-0">
+    <ScrollArea className="h-screen ">
+      <div className="flex flex-col gap-2 p-4 pt-0 ">
         {/* Các mail item */}
         {items.map((item) => (
           <button

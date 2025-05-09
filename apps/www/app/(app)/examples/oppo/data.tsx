@@ -37,168 +37,352 @@ export const mails = [
     text: "Please provide the email or phone number you used to register, I will help you look it up.",
     date: "2023-10-22T09:02:00",
     read: true,
-    labels: ["work"]
+    labels: ["chào hỏi"]
   },
   {
-    id: "110e8400-e29b-11d4-a716-446655440000",
-    name: "Alice Smith",
-    email: "alicesmith@example.com",
-    subject: "Re: Project Update",
-    text: "Thank you for the project update. It looks great! I've gone through the report, and the progress is impressive. The team has done a fantastic job, and I appreciate the hard work everyone has put in.\n\nI have a few minor suggestions that I'll include in the attached document.\n\nLet's discuss these during our next meeting. Keep up the excellent work!\n\nBest regards, Alice",
-    date: "2023-10-22T10:30:00",
-    read: true,
-    labels: ["work", "important"],
+    "id": "3edbbc28-7d68-4015-919c-a29fc97a9bd2",
+    "name": "Nhận thu nhập và hoàn vốn mỗi ngày. Đây là lợi ích rõ ràng, không cần phải nạp thêm nhiều.",
+    "text": "Receive income and capital return daily. This is a clear benefit, no need for more deposits.",
+    "email": "user18@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": ["Lợi ích"]
   },
   {
-    id: "3e7c3f6d-bdf5-46ae-8d90-171300f27ae2",
-    name: "Bob Johnson",
-    email: "bobjohnson@example.com",
-    subject: "Weekend Plans",
-    text: "Any plans for the weekend? I was thinking of going hiking in the nearby mountains. It's been a while since we had some outdoor fun.\n\nIf you're interested, let me know, and we can plan the details. It'll be a great way to unwind and enjoy nature.\n\nLooking forward to your response!\n\nBest, Bob",
-    date: "2023-04-10T11:45:00",
-    read: true,
-    labels: ["personal"],
+    "id": "473b8384-a78e-4f39-b3f9-27b6af952fd3",
+    "name": "🔁 Bạn có thể chuẩn bị vốn để nâng cấp, hoặc đợi đến 180 ngày kết thúc VIP, hệ thống sẽ hoàn vốn cho bạn. Không bắt buộc nâng cấp, nhưng nếu không nâng thì không thể tham gia nhiệm vụ và nhận thưởng.",
+    "text": "You can prepare funds to upgrade, or wait until 180 days VIP ends and the system will return your capital. Upgrading is optional, but without it, you cannot join tasks or receive rewards.",
+    "email": "user19@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": ["Nâng cấp"]
   },
   {
-    id: "61c35085-72d7-42b4-8d62-738f700d4b92",
-    name: "Emily Davis",
-    email: "emilydavis@example.com",
-    subject: "Re: Question about Budget",
-    text: "I have a question about the budget for the upcoming project. It seems like there's a discrepancy in the allocation of resources.\n\nI've reviewed the budget report and identified a few areas where we might be able to optimize our spending without compromising the project's quality.\n\nI've attached a detailed analysis for your reference. Let's discuss this further in our next meeting.\n\nThanks, Emily",
-    date: "2023-03-25T13:15:00",
-    read: false,
-    labels: ["work", "budget"],
+    "id": "3c54e1fd-2fc7-4a4b-b123-c79f84f7ee64",
+    "name": "Đừng bỏ lỡ những nhiệm vụ giá trị này. Sau khi nâng cấp bạn vẫn giữ cấp độ cũ, không có nhiệm vụ nâng tiếp.",
+    "text": "Don’t miss these valuable tasks. After upgrading, your level remains the same and no further upgrade tasks will appear.",
+    "email": "user21@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nhiệm vụ"]
   },
   {
-    id: "8f7b5db9-d935-4e42-8e05-1f1d0a3dfb97",
-    name: "Michael Wilson",
-    email: "michaelwilson@example.com",
-    subject: "Important Announcement",
-    text: "I have an important announcement to make during our team meeting. It pertains to a strategic shift in our approach to the upcoming product launch. We've received valuable feedback from our beta testers, and I believe it's time to make some adjustments to better meet our customers' needs.\n\nThis change is crucial to our success, and I look forward to discussing it with the team. Please be prepared to share your insights during the meeting.\n\nRegards, Michael",
-    date: "2023-03-10T15:00:00",
-    read: false,
-    labels: ["meeting", "work", "important"],
+    "id": "47665d1a-c769-426c-8014-e5fa567234e7",
+    "name": "Tại sao cần nâng cấp? - Hệ thống thiết kế để nâng cao thu nhập của bạn. Vui lòng thao tác theo hướng dẫn.",
+    "text": "The system is designed to increase your income. Please follow the instructions.",
+    "email": "user23@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp",
+    ]
   },
   {
-    id: "1f0f2c02-e299-40de-9b1d-86ef9e42126b",
-    name: "Sarah Brown",
-    email: "sarahbrown@example.com",
-    subject: "Re: Feedback on Proposal",
-    text: "Thank you for your feedback on the proposal. It looks great! I'm pleased to hear that you found it promising. The team worked diligently to address all the key points you raised, and I believe we now have a strong foundation for the project.\n\nI've attached the revised proposal for your review.\n\nPlease let me know if you have any further comments or suggestions. Looking forward to your response.\n\nBest regards, Sarah",
-    date: "2023-02-15T16:30:00",
-    read: true,
-    labels: ["work"],
+    "id": "3ca82892-5595-4dbd-9f99-1221ca9821fc",
+    "name": "😤 Đừng bắt tôi lặp lại - Tôi đã giải thích rõ ràng rồi. Nếu không muốn nâng cấp, bạn có thể chờ hết hạn VIP 180 ngày để nhận hoàn vốn.",
+    "text": "I’ve explained clearly. If you don’t want to upgrade, you can wait for the 180-day VIP period to end for refund.",
+    "email": "user25@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp"
+    ]
   },
   {
-    id: "17c0a96d-4415-42b1-8b4f-764efab57f66",
-    name: "David Lee",
-    email: "davidlee@example.com",
-    subject: "New Project Idea",
-    text: "I have an exciting new project idea to discuss with you. It involves expanding our services to target a niche market that has shown considerable growth in recent months.\n\nI've prepared a detailed proposal outlining the potential benefits and the strategy for execution.\n\nThis project has the potential to significantly impact our business positively. Let's set up a meeting to dive into the details and determine if it aligns with our current goals.\n\nBest regards, David",
-    date: "2023-01-28T17:45:00",
-    read: false,
-    labels: ["meeting", "work", "important"],
+    "id": "f6cd596b-764d-4fae-bd14-91240d32fe7d",
+    "name": "Không nâng cấp thì sao? - Nếu bạn từ chối nhiệm vụ nâng cấp, bạn sẽ không thể ánh xạ và không thể nhận thưởng.",
+    "text": "If you refuse the upgrade task, you won’t be able to map or receive rewards.",
+    "email": "user27@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp"
+    ]
   },
   {
-    id: "2f0130cb-39fc-44c4-bb3c-0a4337edaaab",
-    name: "Olivia Wilson",
-    email: "oliviawilson@example.com",
-    subject: "Vacation Plans",
-    text: "Let's plan our vacation for next month. What do you think? I've been thinking of visiting a tropical paradise, and I've put together some destination options.\n\nI believe it's time for us to unwind and recharge. Please take a look at the options and let me know your preferences.\n\nWe can start making arrangements to ensure a smooth and enjoyable trip.\n\nExcited to hear your thoughts! Olivia",
-    date: "2022-12-20T18:30:00",
-    read: true,
-    labels: ["personal"],
+    "id": "41392a7b-2181-40e3-bb8c-2bc97a5353a1",
+    "name": "Vui lòng hoàn thành sớm - Nếu bạn không hoàn thành trong vòng 24h, hệ thống sẽ giảm uy tín tài khoản, thậm chí đóng băng và mất tiền.",
+    "text": "If you don’t complete within 24 hours, your account’s credibility may drop, possibly leading to freezing and fund loss.",
+    "email": "user29@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp"
+    ]
   },
   {
-    id: "de305d54-75b4-431b-adb2-eb6b9e546014",
-    name: "James Martin",
-    email: "jamesmartin@example.com",
-    subject: "Re: Conference Registration",
-    text: "I've completed the registration for the conference next month. The event promises to be a great networking opportunity, and I'm looking forward to attending the various sessions and connecting with industry experts.\n\nI've also attached the conference schedule for your reference.\n\nIf there are any specific topics or sessions you'd like me to explore, please let me know. It's an exciting event, and I'll make the most of it.\n\nBest regards, James",
-    date: "2022-11-30T19:15:00",
-    read: true,
-    labels: ["work", "conference"],
+    "id": "a337aba4-d6aa-47d5-b278-97639cec4527",
+    "name": "Đóng băng tài khoản - Do bạn nhiều lần từ chối nhiệm vụ, hệ thống sẽ đóng băng tài khoản. Vui lòng chuẩn bị sẵn tài chính và liên hệ lại với chúng tôi.",
+    "text": "Due to repeated refusal of tasks, your account will be frozen. Please prepare funds and contact us again.",
+    "email": "user31@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp","Đóng băng"
+    ]
   },
   {
-    id: "7dd90c63-00f6-40f3-bd87-5060a24e8ee7",
-    name: "Sophia White",
-    email: "sophiawhite@example.com",
-    subject: "Team Dinner",
-    text: "Let's have a team dinner next week to celebrate our success. We've achieved some significant milestones, and it's time to acknowledge our hard work and dedication.\n\nI've made reservations at a lovely restaurant, and I'm sure it'll be an enjoyable evening.\n\nPlease confirm your availability and any dietary preferences. Looking forward to a fun and memorable dinner with the team!\n\nBest, Sophia",
-    date: "2022-11-05T20:30:00",
-    read: false,
-    labels: ["meeting", "work"],
+    "id": "8d845100-10ff-4947-98ac-4003199d2b23",
+    "name": "Xin chào, đầu tiên bạn cần đăng ký tài khoản để trở thành thành viên chính thức của chúng tôi",
+    "text": "Hello, you can register an account and become our official member",
+    "email": "user33@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Đăng ký"
+    ]
   },
   {
-    id: "99a88f78-3eb4-4d87-87b7-7b15a49a0a05",
-    name: "Daniel Johnson",
-    email: "danieljohnson@example.com",
-    subject: "Feedback Request",
-    text: "I'd like your feedback on the latest project deliverables. We've made significant progress, and I value your input to ensure we're on the right track.\n\nI've attached the deliverables for your review, and I'm particularly interested in any areas where you think we can further enhance the quality or efficiency.\n\nYour feedback is invaluable, and I appreciate your time and expertise. Let's work together to make this project a success.\n\nRegards, Daniel",
-    date: "2022-10-22T09:30:00",
-    read: false,
-    labels: ["work"],
+    "id": "9e532bcb-7354-43fa-ae50-343d5e4d4f2a",
+    "name": "Bot Telegram OPPO",
+    "text": "link bot: https://t.me/AIOPPO_bot?start=ref_",
+    "email": "user34@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Chào hỏi"
+    ]
   },
   {
-    id: "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    name: "Ava Taylor",
-    email: "avataylor@example.com",
-    subject: "Re: Meeting Agenda",
-    text: "Here's the agenda for our meeting next week. I've included all the topics we need to cover, as well as time allocations for each.\n\nIf you have any additional items to discuss or any specific points to address, please let me know, and we can integrate them into the agenda.\n\nIt's essential that our meeting is productive and addresses all relevant matters.\n\nLooking forward to our meeting! Ava",
-    date: "2022-10-10T10:45:00",
-    read: true,
-    labels: ["meeting", "work"],
+    "id": "cd58a2fb-5b8e-43f5-88fb-33736d5f2344",
+    "name": "Link đăng ký OPPO",
+    "text": "link trang chủ: https://aioppo.vip/#/register?ref=254901",
+    "email": "user35@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "giới thiệu","Chào hỏi"
+    ]
   },
   {
-    id: "c1a0ecb4-2540-49c5-86f8-21e5ce79e4e6",
-    name: "William Anderson",
-    email: "williamanderson@example.com",
-    subject: "Product Launch Update",
-    text: "The product launch is on track. I'll provide an update during our call. We've made substantial progress in the development and marketing of our new product.\n\nI'm excited to share the latest updates with you during our upcoming call. It's crucial that we coordinate our efforts to ensure a successful launch. Please come prepared with any questions or insights you may have.\n\nLet's make this product launch a resounding success!\n\nBest regards, William",
-    date: "2022-09-20T12:00:00",
-    read: false,
-    labels: ["meeting", "work", "important"],
+    "id": "c0b15eb7-437c-4e6f-a5e8-4a61313bc7ce",
+    "name": "Làm sao để kiếm tiền - Bạn có thể đăng ký 1 tài khoản đầu tiên để trở thành thành viên của chúng tôi. Sau đó, bạn có thể nâng cấp để trở thành thành viên chính thức",
+    "text": "You can register an account first to become our member. Then you can recharge to upgrade to VIP and become our official member",
+    "email": "user37@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Đăng ký"
+    ]
   },
   {
-    id: "ba54eefd-4097-4949-99f2-2a9ae4d1a836",
-    name: "Mia Harris",
-    email: "miaharris@example.com",
-    subject: "Re: Travel Itinerary",
-    text: "I've received the travel itinerary. It looks great! Thank you for your prompt assistance in arranging the details. I've reviewed the schedule and the accommodations, and everything seems to be in order. I'm looking forward to the trip, and I'm confident it'll be a smooth and enjoyable experience.\n\nIf there are any specific activities or attractions you recommend at our destination, please feel free to share your suggestions.\n\nExcited for the trip! Mia",
-    date: "2022-09-10T13:15:00",
-    read: true,
-    labels: ["personal", "travel"],
+    "id": "3337a74e-3133-4aa0-925c-da90d80033de",
+    "name": "Lộ trình kiếm tiền:\n- VIP1: Gửi 10 USDT, thu nhập hàng ngày 2.5 USDT\n- VIP2: Gửi 60 USDT, thu nhập hàng ngày 15.3 USDT\n- VIP3: Gửi 260 USDT, thu nhập hàng ngày 67.8 USDT\n- VIP4: Gửi 800 USDT, thu nhập hàng ngày 210.24 USDT\n- VIP5: Gửi 1800 USDT, thu nhập hàng ngày 477 USDT\n- VIP6: Gửi 4000 USDT, thu nhập hàng ngày 1070 USDT\n- VIP7: Gửi 8000 USDT, thu nhập hàng ngày 2148.8 USDT\n- VIP8: Gửi 15000 USDT, thu nhập hàng ngày 4125 USDT\n- VIP9: Gửi 50000 USDT, thu nhập hàng ngày 14150 USDT\n- VIP10: Gửi 90000 USDT, thu nhập hàng ngày 25884 USDT\n- VIP11: Gửi 160000 USDT, thu nhập hàng ngày 73248 USDT",
+    "text": "Deposit amount and profit details:\n- VIP1: Deposit 10 USDT, daily income 2.5 USDT\n- VIP2: Deposit 60 USDT, daily income 15.3 USDT\n- VIP3: Deposit 260 USDT, daily income 67.8 USDT\n- VIP4: Deposit 800 USDT, daily income 210.24 USDT\n- VIP5: Deposit 1800 USDT, daily income 477 USDT\n- VIP6: Deposit 4000 USDT, daily income 1070 USDT\n- VIP7: Deposit 8000 USDT, daily income 2148.8 USDT\n- VIP8: Deposit 15000 USDT, daily income 4125 USDT\n- VIP9: Deposit 50000 USDT, daily income 14150 USDT\n- VIP10: Deposit 90000 USDT, daily income 25884 USDT\n- VIP11: Deposit 160000 USDT, daily income 73248 USDT",
+    "email": "user38@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "giới thiệu","Plan"
+    ]
   },
   {
-    id: "df09b6ed-28bd-4e0c-85a9-9320ec5179aa",
-    name: "Ethan Clark",
-    email: "ethanclark@example.com",
-    subject: "Team Building Event",
-    text: "Let's plan a team-building event for our department. Team cohesion and morale are vital to our success, and I believe a well-organized team-building event can be incredibly beneficial. I've done some research and have a few ideas for fun and engaging activities.\n\nPlease let me know your thoughts and availability. We want this event to be both enjoyable and productive.\n\nTogether, we'll strengthen our team and boost our performance.\n\nRegards, Ethan",
-    date: "2022-08-25T15:30:00",
-    read: false,
-    labels: ["meeting", "work"],
+    "id": "f97c4093-8203-4685-a76d-11679b0f6f36",
+    "name": "Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với tôi.",
+    "text": "If you have any questions, feel free to contact me.",
+    "email": "user39@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Liên hệ"
+    ]
   },
   {
-    id: "d67c1842-7f8b-4b4b-9be1-1b3b1ab4611d",
-    name: "Chloe Hall",
-    email: "chloehall@example.com",
-    subject: "Re: Budget Approval",
-    text: "The budget has been approved. We can proceed with the project. I'm delighted to inform you that our budget proposal has received the green light from the finance department. This is a significant milestone, and it means we can move forward with the project as planned.\n\nI've attached the finalized budget for your reference. Let's ensure that we stay on track and deliver the project on time and within budget.\n\nIt's an exciting time for us! Chloe",
-    date: "2022-08-10T16:45:00",
-    read: true,
-    labels: ["work", "budget"],
+    "id": "b3ecc9a8-3a83-489c-a250-3b957ffbfdeb",
+    "name": "Tôi đang gặp phải vấn đề…: Xin chào, vui lòng cung cấp cho tôi vấn đề bạn kèm theo ảnh chụp màn hình, cảm ơn bạn!",
+    "text": "Hello, please provide me with the problem you encountered and screenshot details, thank you!",
+    "email": "user40@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Chào hỏi"
+    ]
   },
   {
-    id: "6c9a7f94-8329-4d70-95d3-51f68c186ae1",
-    name: "Samuel Turner",
-    email: "samuelturner@example.com",
-    subject: "Weekend Hike",
-    text: "Who's up for a weekend hike in the mountains? I've been craving some outdoor adventure, and a hike in the mountains sounds like the perfect escape. If you're up for the challenge, we can explore some scenic trails and enjoy the beauty of nature.\n\nI've done some research and have a few routes in mind.\n\nLet me know if you're interested, and we can plan the details.\n\nIt's sure to be a memorable experience! Samuel",
-    date: "2022-07-28T17:30:00",
-    read: false,
-    labels: ["personal"],
+    "id": "5aaff306-f6a7-400f-8a29-72f616fef4d7",
+    "name": "Hãy cung cấp cho tôi account của bạn",
+    "text": "Hello, please provide your member account",
+    "email": "user41@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Chào hỏi"
+    ]
   },
+  {
+    "id": "f034c270-0d51-424a-8a64-aa425ccb2e31",
+    "name": "Xin chào, Làm ơn hãy cung cấp cho tôi địa chỉ email đã đăng ký hoặc số điện thoại mà bạn đã đăng ký, tôi sẽ giúp bạn kiểm tra.",
+    "text": "Hello, please provide your registered email address or the phone number you registered with, and I will help you check.",
+    "email": "user42@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Chào hỏi"
+    ]
+  },
+  {
+    "id": "d35adc29-dbe5-4b89-b0a3-db5ba399590a",
+    "name": "Tại sao không định lượng được? Thưa ngài, hệ thống thông báo rằng ngài cần nâng cấp cấp độ để tiếp tục định lượng và đạt được lợi nhuận cao hơn. Vui lòng làm theo hướng dẫn.",
+    "text": "Sir, the system prompts you that you need to upgrade your level to continue quantification and obtain higher returns. Please follow the prompts.",
+    "email": "user43@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "quantify"
+    ]
+  },
+  {
+    "id": "e8a73125-0d3a-461a-ad7e-75343491399f",
+    "name": "Xin chào, hệ thống thông báo cho bạn rằng bạn cần mời bạn bè tham gia",
+    "text": "Hello, the system prompts you that you need to invite friends to join",
+    "email": "user44@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Quantify","Nhiệm vụ"
+    ]
+  },
+  {
+    "id": "171e9eb5-a1a3-4100-bc36-0eb07c924a15",
+    "name": "Nếu bạn muốn tiếp tục kiếm tiền, bạn có thể tự nâng cấp lên VIP. Tôi không thể giải quyết vấn đề này.",
+    "text": "If you want to keep making money, you can upgrade to VIP by yourself. I can't solve this problem.",
+    "email": "user45@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+      "Nâng cấp"
+    ]
+  },
+  {
+    "id": "353267e8-5fd3-442a-8fad-aa1f3cf9612f",
+    "name": "Thưa ông, để tăng thu nhập định lượng cho tất cả các thành viên, nền tảng đã khẩn cấp triển khai các nhiệm vụ nâng cấp, điều này sẽ tăng thu nhập của bạn và cho phép bạn kiếm được nhiều lợi nhuận hơn trong thời gian ngắn. Mỗi thành viên chỉ cần nâng cấp một lần và không cần nâng cấp lại. Sau khi hoàn thành nâng cấp, bạn có thể tiếp tục thực hiện các nhiệm vụ định lượng và rút tiền mặt ngay lập tức.",
+    "text": "Sir, in order to increase the quantitative income of all members, the platform has urgently dispatched upgrade tasks, which will increase your income and allow you to earn more profits in a short time. Each member only needs to upgrade once and does not need to upgrade again. After the upgrade is completed, you can continue to do quantitative tasks and withdraw cash immediately.",
+    "email": "user46@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+    ]
+  },
+  {
+    "id": "7e032327-1cda-4c22-8f32-b7ea52946b03",
+    "name": "Thưa ngài, nhiều thành viên đã nhận được nhiệm vụ nâng cấp và hoàn thành đúng hạn, và đã nhận được phần thưởng và lợi ích cao hơn. Ngài chỉ cần nâng cấp cấp độ của mình để ngay lập tức định lượng và rút thu nhập của mình.",
+    "text": "Sir, many members have received upgrade tasks and completed them on time, and have received higher rewards and benefits. You only need to upgrade your level to immediately quantify and withdraw your earnings.",
+    "email": "user47@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+   "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+    ]
+  },
+  {
+    "id": "e2157d34-42c3-480b-bcbb-cb61b3fc59e4",
+    "name": "Mời thành viên cấp dưới để nhận phần thưởng vòng quay may mắn",
+    "text": "Invite your subordinates to receive lucky draw rewards",
+    "email": "user48@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+    ]
+  },
+  {
+    "id": "7feaab79-1746-4223-bca1-5d195385042b",
+    "name": "Ngoài ra, bạn có thể mời bạn bè trở thành cấp dưới của mình và với mỗi người tham gia và trở thành cấp dưới, bạn có thể kiếm được rất nhiều lợi nhuận hoa hồng.",
+    "text": "Additionally, you can invite friends to become your subordinates, and for each person who joins and becomes your subordinate, you can earn a lot of commission profit.",
+    "email": "user49@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+   "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+      "Hoa hồng"
+    ]
+  },
+  {
+    "id": "9aa0b0c2-0315-49e3-92e8-668de8923b4c",
+    "name": "Bạn cũng có thể mời bạn bè của mình tham gia. Bạn sẽ nhận được một khoản hoa hồng đáng kể từ những người bạn này.",
+    "text": "You can also invite your friends to join. You will receive a considerable amount of commission from these friends.",
+    "email": "user50@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+      "Hoa hồng"
+    ]
+  },
+  {
+    "id": "4bea3f65-8aae-4f57-a6d6-e77f642e6d1a",
+    "name": "Tỷ lệ hoa hồng USDT khi thành viên cấp dưới gửi USDT. Cấp 1: Gửi 1000 USDT, hoa hồng 12%, 1000 x 0.12 = 120 USDT. Cấp 2: Gửi 1000 USDT, hoa hồng 3%, 1000 x 0.03 = 30 USDT. Cấp 3: Gửi 1000 USDT, hoa hồng 2%, 1000 x 0.02 = 20 USDT.",
+    "text": "USDT commission rate when a subordinate member sends USDT. Level 1: Send 1000 USDT, commission 12%, 1000 x 0.12 = 120 USDT. Level 2: Send 1000 USDT, commission 3%, 1000 x 0.03 = 30 USDT. Level 3: Send 1000 USDT, commission 2%, 1000 x 0.02 = 20 USDT.",
+    "email": "user51@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Quantify",
+      "Nhiệm vụ",
+      "Hoa hồng"
+    ]
+  },
+  {
+    "id": "07f25c7e-e067-4cdb-a314-af0216a131f7",
+    "name": "Làm sao để tôi tin tưởng những gì bạn nói là đúng? Đầu tư định lượng thông minh AI của OPPO đã chính thức ra mắt vào ngày 24 tháng 10 năm 2024. Dựa vào sức mạnh tính toán AI hàng đầu và khả năng phân tích dữ liệu đám mây của OPPO, dịch vụ này cung cấp cho các nhà đầu tư toàn cầu các dịch vụ giao dịch hiệu quả, ổn định và hoàn toàn tự động.",
+    "text": "OPPO AI intelligent quantitative investment was officially launched on October 24, 2024. Relying on OPPO's leading AI computing power and cloud data analysis capabilities, it provides global investors with efficient, stable, and fully automatic trading services.",
+    "email": "user52@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": false,
+    "labels": [
+      "giới thiệu",
+      "Lợi ích",
+    ]
+  },
+  {
+    "id": "cb283e14-85c0-4373-8f6d-95d92254520d",
+    "name": "Tại sao chỉ mới tham gia được 4 ngày mà đã bị ép nâng cấp vậy thưa anh..? Thưa anh, nền tảng đã khẩn cấp phân bổ nhiệm vụ nâng cấp để tăng thu nhập định lượng cho tất cả các thành viên. Việc này sẽ giúp anh tăng thu nhập và kiếm được nhiều lợi nhuận hơn trong thời gian ngắn. Mỗi thành viên chỉ cần nâng cấp một lần duy nhất và không cần nâng cấp lại. Sau khi hoàn tất nâng cấp, anh có thể tiếp tục thực hiện các nhiệm vụ định lượng và rút tiền ngay lập tức.",
+    "text": "Sir, the platform has urgently dispatched upgrade tasks to increase the quantitative earnings of all members. This will boost your earnings and enable you to earn more profits in a short period of time. Each member only needs to upgrade once and there is no need to upgrade again. After the upgrade is completed, you can continue with the quantitative tasks and withdraw the funds immediately.",
+    "email": "user53@example.com",
+    "subject": "information",
+    "date": "2023-10-22T09:00:00",
+    "read": true,
+    "labels": [
+      "Nâng cấp",
+      "Nhiệm vụ",
+    ]
+  }
 ]
 
 export type Mail = (typeof mails)[number]

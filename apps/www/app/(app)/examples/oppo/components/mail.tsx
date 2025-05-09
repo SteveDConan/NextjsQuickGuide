@@ -167,6 +167,24 @@ export function Mail({
                 variant: "ghost",
               },
               {
+                title: "Lợi ích",
+                label: "25",
+                icon: ArchiveX,
+                variant: "ghost",
+              },
+              {
+                title: "Plan",
+                label: "285",
+                icon: ArchiveX,
+                variant: "ghost",
+              },
+              {
+                title: "Hoa hồng",
+                label: "285",
+                icon: ArchiveX,
+                variant: "ghost",
+              },
+              {
                 title: "Đăng ký",
                 label: "23",
                 icon: ArchiveX,
@@ -203,6 +221,13 @@ export function Mail({
                 label: "972",
                 icon: Users2,
                 variant: "ghost",
+              }
+              ,
+              {
+                title: "Nhiệm vụ",
+                label: "345",
+                icon: AlertCircle,
+                variant: "ghost",
               },
               {
                 title: "Kiểm toán",
@@ -211,7 +236,7 @@ export function Mail({
                 variant: "ghost",
               },
               {
-                title: "Forums",
+                title: "Nâng cấp",
                 label: "128",
                 icon: MessagesSquare,
                 variant: "ghost",
