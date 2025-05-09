@@ -64,13 +64,13 @@ export default function ExamplesLayout({
       </PageHeader> */}
       <div className="border-grid border-b">
         <div className="container-wrapper">
-          <div className="container py-4">
+          <div className="container py-1">
             <ExamplesNav />
           </div>
         </div>
       </div>
       <div className="container-wrapper">
-        <div className="container py-6">
+        <div className="container py-1">
           <section className="overflow-hidden rounded-[0.5rem] border bg-background shadow">
             {children}
           </section>

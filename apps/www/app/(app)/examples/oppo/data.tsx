@@ -1,13 +1,43 @@
 export const mails = [
   {
     id: "6c84fb90-12c4-11e1-840d-7b25c5ee775a",
-    name: "William Smith",
-    email: "williamsmith@example.com",
-    subject: "Meeting Tomorrow",
-    text: "Hi, let's have a meeting tomorrow to discuss the project. I've been reviewing the project details and have some ideas I'd like to share. It's crucial that we align on our next steps to ensure the project's success.\n\nPlease come prepared with any questions or insights you may have. Looking forward to our meeting!\n\nBest regards, William",
+    name: "Giới thiệu về OPPO",
+    email: "bobjohnson@example.com",
+    subject: "infomation",
+    text: "OPPO AI intelligent quantitative investment was officially launched on October 24, 2024. Relying on OPPO's leading AI computing power and cloud data analysis capabilities, it provides global investors with efficient, stable, and fully automatic trading services.",
     date: "2023-10-22T09:00:00",
     read: true,
-    labels: ["meeting", "work", "important"],
+    labels: ["giới thiệu", "work", "important"],
+  },
+  {
+    id: "752927d7-912f-4f47-b104-d1a403318ca6",
+    name: "Xin chào, bạn cần hỗ trợ gì không?",
+    email: "alicelee@example.com",
+    subject: "infomation",
+    text: "Hello, do you need any assistance?",
+    date: "2023-10-22T09:00:00",
+    read: true,
+    labels: ["chào hỏi"]
+  },
+  {
+    id: "aa1621f3-b708-47a1-8866-698bb3b44761",
+    name: "Xin vui lòng cho tôi biết vấn đề bạn gặp phải, kèm ảnh chụp hoặc chi tiết nhé, cảm ơn bạn!",
+    email: "alicelee@example.com",
+    subject: "Xin vui lòng cho tôi biết vấn đề bạn gặp phải, kèm ảnh chụp hoặc chi tiết nhé, cảm ơn bạn!",
+    text: "Please let me know the issue you are facing, with a screenshot or details. Thank you!",
+    date: "2023-10-22T09:01:00",
+    read: false,
+    labels: ["chào hỏi", "vấn đề", "chụp ảnh"]
+  },
+  {
+    id: "980984a4-fcfe-4b5b-a3cf-297ff086aa5d",
+    name: "Vui lòng cung cấp email hoặc số điện thoại đã dùng để đăng ký, tôi sẽ giúp bạn tra cứu.",
+    email: "bobjohnson@example.com",
+    subject: "Vui lòng cung cấp email hoặc số điện thoại đã dùng để đăng ký, tôi sẽ giúp bạn tra cứu.",
+    text: "Please provide the email or phone number you used to register, I will help you look it up.",
+    date: "2023-10-22T09:02:00",
+    read: true,
+    labels: ["work"]
   },
   {
     id: "110e8400-e29b-11d4-a716-446655440000",

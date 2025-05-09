@@ -1,3 +1,4 @@
+// components/nav.tsx
 "use client"
 
 import Link from "next/link"
@@ -19,9 +20,11 @@ interface NavProps {
     icon: LucideIcon
     variant: "default" | "ghost"
   }[]
+  selected?: string               // ← title nav đang được chọn
+  onSelect?: (title: string) => void   // ← callback khi click
 }
 
-export function Nav({ links, isCollapsed }: NavProps) {
+export function Nav({ links, isCollapsed, selected, onSelect }: NavProps) {
   return (
     <div
       data-collapsed={isCollapsed}
@@ -34,10 +37,17 @@ export function Nav({ links, isCollapsed }: NavProps) {
               <TooltipTrigger asChild>
                 <Link
                   href="#"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    onSelect?.(link.title)     // ← gọi callback
+                  }}
                   className={cn(
-                    buttonVariants({ variant: link.variant, size: "icon" }),
+                    buttonVariants({ 
+                      variant: link.title === selected ? "default" : link.variant, 
+                      size: "icon" 
+                    }),
                     "h-9 w-9",
-                    link.variant === "default" &&
+                    (link.title === selected || link.variant === "default") &&
                       "dark:bg-muted dark:text-muted-foreground dark:hover:bg-muted dark:hover:text-white"
                   )}
                 >
@@ -58,8 +68,15 @@ export function Nav({ links, isCollapsed }: NavProps) {
             <Link
               key={index}
               href="#"
+              onClick={(e) => {
+                e.preventDefault()
+                onSelect?.(link.title)     // ← gọi callback
+              }}
               className={cn(
-                buttonVariants({ variant: link.variant, size: "sm" }),
+                buttonVariants({ 
+                  variant: link.title === selected ? "default" : link.variant, 
+                  size: "sm" 
+                }),
                 link.variant === "default" &&
                   "dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
                 "justify-start"
